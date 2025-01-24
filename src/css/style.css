@@ -1,0 +1,259 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0c172b;
+  color: #f0f1f1;
+  padding: 1px 2px;
+  height: 110px;
+}
+.logo {
+  padding: 1px;
+  height: 100px;
+  width: 150px;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  background-color: #203332;
+  padding: 10px;
+  border-width: 2px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.cart img {
+  height: 50px;
+  margin-right: 5px;
+  
+}
+
+.cart-count {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 7px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.cart-button {
+  display: inline-block;
+  background-color: #f8f8f8;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-button:hover {
+  background-color: #e8e8e8;
+}
+
+.cart-button:active {
+  background-color: #d8d8d8;
+}
+  
+  .home{
+    margin: 100;
+    padding: 10;
+  
+  }
+  
+  ul.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+  }
+  
+  ul.nav-menu li {
+    float: left;
+  }
+  
+  ul.nav-menu li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul.nav-menu li a:hover {
+    background-color: #ddd;
+  }
+  
+  /* CSS styles for login section */
+  .login-section {
+    margin-top: 200px;
+    padding: 100px 20px;
+    background-color: #f7f7f7;
+    border-color: #38c3fa;
+    border-width: 2px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-section input[type="text"] {
+    padding: 8px;
+    width: 200px;
+  }
+  
+  .login-section input[type="submit"] {
+    padding: 8px 16px;
+    margin-left: 10px;
+  }
+  
+  
+  .login-form {
+    /* Styles for the login form container */
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  .login-label {
+    /* Styles for the labels */
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-input {
+    /* Styles for the input fields */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 360px;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    /* Styles for the login button */
+    background-color: #021b36;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    vertical-align: bottom; 
+  }
+
+  .login-button-footer {
+    color: #5c5a5a;
+    padding: 5px 5px;
+    font-style: italic;
+    font-size: 14px;
+    vertical-align:bottom;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    vertical-align: bottom; 
+  }
+  
+  .logout-button {
+    display: inline-block;
+    background-color:#022839;
+    border-radius: 50%;
+    color: #bd9191;
+    border-color: #d8d8d8;
+    border: none;
+    padding: 5px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #840b0b;
+    color: #b69c9c;
+  }
+  
+  .logout-button:active {
+    background-color: #b40d0d;
+  }
+  .field-error{
+    background-color: #f5d6e2;
+    color: rgb(212, 11, 11)0b4;
+    padding: 10px 20px;
+    width:auto;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px;
+    border-width: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+  
+  }
+  .hero {
+    background-size: cover;
+    background-position: center;
+    height: 100v;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+.recent-orders {
+  margin-bottom: 40px;
+}
+
+.recent-orders h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
